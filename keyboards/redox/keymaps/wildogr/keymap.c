@@ -22,10 +22,10 @@ enum custom_keycodes {
 #define KC_ALAS LALT_T(KC_PAST)
 #define KC_CTPL LCTL_T(KC_BSLS)
 
-#define KC_CT_S LCTL_T(KC_S)
-#define KC_CT_L LCTL_T(KC_L)
-#define KC_AL_F LALT_T(KC_F)
-#define KC_AL_J LALT_T(KC_J)
+#define KC_CT_D LCTL_T(KC_D)
+#define KC_CT_K LCTL_T(KC_K)
+#define KC_AL_S LALT_T(KC_S)
+#define KC_AL_L LALT_T(KC_L)
 
 #define KC_NAMI LT(_NAV, KC_MINS)
 #define KC_NA_V LT(_NAV, KC_V)
@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_TAB  ,KC_Q    ,KC_W    ,KC_E    ,KC_R    ,KC_T    ,SYM_L   ,                          KC_DEL  ,KC_Y    ,KC_U    ,KC_I    ,KC_O    ,KC_P    ,KC_EQL  ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_ESC  ,KC_A    ,KC_CT_S ,KC_D    ,KC_AL_F ,KC_SY_G ,KC_LBRC ,                          KC_RBRC ,KC_SY_H ,KC_AL_J ,KC_K    ,KC_CT_L ,KC_SCLN ,KC_QUOT ,
+     KC_ESC  ,KC_A    ,KC_AL_S ,KC_CT_D ,KC_F    ,KC_SY_G ,KC_LBRC ,                          KC_RBRC ,KC_SY_H ,KC_J    ,KC_CT_K ,KC_AL_L ,KC_SCLN ,KC_QUOT ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_LSFT ,KC_Z    ,KC_X    ,KC_C    ,KC_NA_V ,KC_B    ,KC_ADPU ,KC_PGDN ,        KC_HOME ,KC_ADEN ,KC_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
